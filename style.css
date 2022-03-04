@@ -10,3 +10,12 @@ div {
     margin-right: 10px;
     text-align: left;
    }
+   <style>
+   img {
+     width: 100%;
+     height: auto;
+     aspect-ratio: attr(width) / attr(height);
+   } 
+ </style>
+ 
+ <img src="https://book24.kz/upload/iblock/8c7/8c737ade1dde05f90ca25cfa1bd90439.jpg" alt="" width="400" height="400">
