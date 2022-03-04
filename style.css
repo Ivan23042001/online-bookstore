@@ -1,0 +1,12 @@
+ul {
+    background-color: rgb(202, 220, 230);
+}
+div {
+    float: left; /*Задаем обтекание*/
+    line-height: 15px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 15px;
+    margin-top: 20px;
+    width: 286px; /*Фиксируем ширину блока*/
+    margin-right: 10px;
+    text-align: left;
+   }
