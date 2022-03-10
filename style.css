@@ -1,21 +1,101 @@
-ul {
-    background-color: rgb(202, 220, 230);
-}
-div {
-    float: left; /*Задаем обтекание*/
-    line-height: 15px;/*Высота строки +  верт. центрирования текста*/
-    font-size: 15px;
-    margin-top: 20px;
-    width: 286px; /*Фиксируем ширину блока*/
-    margin-right: 10px;
-    text-align: left;
-   }
-   <style>
-   img {
-     width: 100%;
-     height: auto;
-     aspect-ratio: attr(width) / attr(height);
-   } 
- </style>
- 
- <img src="https://book24.kz/upload/iblock/8c7/8c737ade1dde05f90ca25cfa1bd90439.jpg" alt="" width="400" height="400">
+html {
+    font-size: 16px;
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: black;
+        background-color: aliceblue;
+        min-width: 320px;
+    }
+    img {
+    max-width: 100%;
+    height: auto;
+    }
+    section {
+        padding: 50px 0;
+    }
+    a{
+    color:#111;
+    }
+    a:hover {
+        color: #555;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #111;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .navbar-nav .dropdown-menu {
+    right: 0;
+    left: auto;
+    }
+    .modal-body img {
+max-width: 100px;
+    }
+    .my-carousel {
+        padding: 0;
+    }
+    .my-carousel .carousel-item {
+        display: flex;
+        max-height: 500px;
+    }
+    .my-carousel .carousel-item img {
+        object-fit: cover;
+    }
+    .product-card {
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+        transition: all .3s;
+    }
+    .product-card :hover {
+        box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+    }
+    .product-thumb a{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 200px;
+padding: 20px;
+    }
+    .product-thumb img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .product-details {
+        padding: 20px;
+    }
+    .product-details h4 a{
+font-weight: 500;
+display: block;
+height: 60px;
+overflow: hidden;
+text-decoration: none;
+    }
+    .product-details p {
+        font-size: 15px;
+        margin-bottom: 20px;
+        color: #999;
+        height: 44px;
+        overflow: hidden;
+    }
+    .product-bottom-details {
+        overflow: hidden;
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+    }
+    .product-price {
+        font-size: 18px;
+        color: #ee6e73;
+font-weight: 600;
+    }
+    .product-price small {
+        color: #ccc;
+        font-weight: 400;
+        text-decoration: line-through;
+        margin-right: 5px;
+    }
+    .product-links a{
+        font-size: 20px;
+        
+    }
